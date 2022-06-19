@@ -1,0 +1,20 @@
+<html>
+
+  <head>
+    <title>FLASK 서버</title>
+  </head>
+    
+  <body>
+      <center>
+        <br>
+        <h1>  실시간 영상 처리    </h1>
+        <br> 
+        <div id="log"></div>
+        <br> 
+
+        <img src="{{ url_for('video_feed') }}" style="max-width: 100%; height: auto;">
+      </center>   
+          
+  </body>
+      
+</html>
